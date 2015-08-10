@@ -111,7 +111,8 @@ class WebhookHandler(webapp2.RequestHandler):
                     u"Le dice una madre a su hijo:\n- ¡Me ha dicho un pajarito que te drogas!\n- ¡La que se droga eres tu que hablas con pajaritos!",
                     u"- Papá, ¿qué se siente tener un hijo tan guapo?.\n- No sé hijo, pregúntale a tu abuelo...",
                     u"Dos amigos:\n- Oye, pues mi hijo en su nuevo trabajo se siente como pez en el agua.\n- ¿Qué hace? \n- Nada...",
-                    u"- A ella le gusta la gasolina...\n- Oye, ¿no puedes cantar algo más educativo?\n- A ella le gusta la mezcla de hidrocarburos derivados de petróleo..."
+                    u"- A ella le gusta la gasolina...\n- Oye, ¿no puedes cantar algo más educativo?\n- A ella le gusta la mezcla de hidrocarburos derivados de petróleo...",
+                    u"- Le parecerá bonito\n- Sí\nPues es rodaballo\n- Vaya"
                 ]
                 chosenjoke = randint(0,len(chistes))
                 reply(chistes[chosenjoke])
